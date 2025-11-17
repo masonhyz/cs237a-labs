@@ -1,0 +1,55 @@
+[0.018s] Invoking command in '/home/aa274/autonomy_ws/src/cs237a-labs/build/s3_basic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/aa274/autonomy_ws/src/cs237a-labs/s3_basic -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_BUILD_TYPE=RelWithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aa274/autonomy_ws/src/cs237a-labs/install/s3_basic
+[0.137s] -- The C compiler identification is GNU 11.4.0
+[0.246s] -- The CXX compiler identification is GNU 11.4.0
+[0.258s] -- Detecting C compiler ABI info
+[0.352s] -- Detecting C compiler ABI info - done
+[0.365s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.366s] -- Detecting C compile features
+[0.366s] -- Detecting C compile features - done
+[0.370s] -- Detecting CXX compiler ABI info
+[0.473s] -- Detecting CXX compiler ABI info - done
+[0.489s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.489s] -- Detecting CXX compile features
+[0.490s] -- Detecting CXX compile features - done
+[0.503s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.731s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.862s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.933s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.069s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.073s] -- Added test 'lint_cmake' to check CMake code style
+[1.073s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.073s] -- Added test 'xmllint' to check XML markup files
+[1.075s] -- Configuring done
+[1.078s] -- Generating done
+[1.079s] [33mCMake Warning:
+[1.080s]   Manually-specified variables were not used by the project:
+[1.080s] 
+[1.080s]     CMAKE_EXPORT_COMPILE_COMMANDS
+[1.080s] 
+[1.080s] [0m
+[1.081s] -- Build files have been written to: /home/aa274/autonomy_ws/src/cs237a-labs/build/s3_basic
+[1.086s] Invoked command in '/home/aa274/autonomy_ws/src/cs237a-labs/build/s3_basic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/aa274/autonomy_ws/src/cs237a-labs/s3_basic -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_BUILD_TYPE=RelWithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aa274/autonomy_ws/src/cs237a-labs/install/s3_basic
+[1.090s] Invoking command in '/home/aa274/autonomy_ws/src/cs237a-labs/build/s3_basic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aa274/autonomy_ws/src/cs237a-labs/build/s3_basic -- -j8 -l8
+[1.151s] Invoked command in '/home/aa274/autonomy_ws/src/cs237a-labs/build/s3_basic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aa274/autonomy_ws/src/cs237a-labs/build/s3_basic -- -j8 -l8
+[1.185s] Invoking command in '/home/aa274/autonomy_ws/src/cs237a-labs/build/s3_basic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/aa274/autonomy_ws/src/cs237a-labs/build/s3_basic
+[1.194s] -- Install configuration: "RelWithDebInfo"
+[1.194s] -- Execute custom install script
+[1.195s] -- Symlinking: /home/aa274/autonomy_ws/src/cs237a-labs/install/s3_basic/share/ament_index/resource_index/package_run_dependencies/s3_basic
+[1.206s] -- Symlinking: /home/aa274/autonomy_ws/src/cs237a-labs/install/s3_basic/share/ament_index/resource_index/parent_prefix_path/s3_basic
+[1.218s] -- Symlinking: /home/aa274/autonomy_ws/src/cs237a-labs/install/s3_basic/share/s3_basic/environment/ament_prefix_path.sh
+[1.230s] -- Symlinking: /home/aa274/autonomy_ws/src/cs237a-labs/install/s3_basic/share/s3_basic/environment/ament_prefix_path.dsv
+[1.241s] -- Symlinking: /home/aa274/autonomy_ws/src/cs237a-labs/install/s3_basic/share/s3_basic/environment/path.sh
+[1.254s] -- Symlinking: /home/aa274/autonomy_ws/src/cs237a-labs/install/s3_basic/share/s3_basic/environment/path.dsv
+[1.269s] -- Symlinking: /home/aa274/autonomy_ws/src/cs237a-labs/install/s3_basic/share/s3_basic/local_setup.bash
+[1.280s] -- Symlinking: /home/aa274/autonomy_ws/src/cs237a-labs/install/s3_basic/share/s3_basic/local_setup.sh
+[1.293s] -- Symlinking: /home/aa274/autonomy_ws/src/cs237a-labs/install/s3_basic/share/s3_basic/local_setup.zsh
+[1.305s] -- Symlinking: /home/aa274/autonomy_ws/src/cs237a-labs/install/s3_basic/share/s3_basic/local_setup.dsv
+[1.320s] -- Symlinking: /home/aa274/autonomy_ws/src/cs237a-labs/install/s3_basic/share/s3_basic/package.dsv
+[1.332s] -- Symlinking: /home/aa274/autonomy_ws/src/cs237a-labs/install/s3_basic/share/ament_index/resource_index/packages/s3_basic
+[1.344s] -- Symlinking: /home/aa274/autonomy_ws/src/cs237a-labs/install/s3_basic/share/s3_basic/cmake/s3_basicConfig.cmake
+[1.355s] -- Symlinking: /home/aa274/autonomy_ws/src/cs237a-labs/install/s3_basic/share/s3_basic/cmake/s3_basicConfig-version.cmake
+[1.369s] -- Symlinking: /home/aa274/autonomy_ws/src/cs237a-labs/install/s3_basic/share/s3_basic/package.xml
+[1.381s] -- Symlinking: /home/aa274/autonomy_ws/src/cs237a-labs/install/s3_basic/lib/s3_basic/constant_control.py
+[1.392s] -- Symlinking: /home/aa274/autonomy_ws/src/cs237a-labs/install/s3_basic/share/s3_basic/launch/section3.launch.py
+[1.407s] -- Symlinking: /home/aa274/autonomy_ws/src/cs237a-labs/install/s3_basic/share/s3_basic/rviz/section3.rviz
+[1.425s] Invoked command in '/home/aa274/autonomy_ws/src/cs237a-labs/build/s3_basic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/aa274/autonomy_ws/src/cs237a-labs/build/s3_basic

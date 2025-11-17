@@ -1,0 +1,39 @@
+[0.027s] Invoking command in '/home/aa274/autonomy_ws/src/cs237a-labs/build/autonomy_repo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aa274/autonomy_ws/src/cs237a-labs/build/autonomy_repo -- -j8 -l8
+[0.060s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.246s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.258s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.375s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.376s] -- Added test 'lint_cmake' to check CMake code style
+[0.377s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.380s] -- Added test 'xmllint' to check XML markup files
+[0.381s] -- Configuring done
+[0.384s] -- Generating done
+[0.385s] -- Build files have been written to: /home/aa274/autonomy_ws/src/cs237a-labs/build/autonomy_repo
+[0.410s] Invoked command in '/home/aa274/autonomy_ws/src/cs237a-labs/build/autonomy_repo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aa274/autonomy_ws/src/cs237a-labs/build/autonomy_repo -- -j8 -l8
+[0.436s] Invoking command in '/home/aa274/autonomy_ws/src/cs237a-labs/build/autonomy_repo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/aa274/autonomy_ws/src/cs237a-labs/build/autonomy_repo
+[0.445s] -- Install configuration: "RelWithDebInfo"
+[0.446s] -- Execute custom install script
+[0.446s] -- Up-to-date symlink: /home/aa274/autonomy_ws/src/cs237a-labs/install/autonomy_repo/lib/autonomy_repo/heading_controller.py
+[0.446s] -- Up-to-date symlink: /home/aa274/autonomy_ws/src/cs237a-labs/install/autonomy_repo/lib/autonomy_repo/p3_plot.py
+[0.447s] -- Up-to-date symlink: /home/aa274/autonomy_ws/src/cs237a-labs/install/autonomy_repo/lib/autonomy_repo/navigator.py
+[0.447s] -- Up-to-date symlink: /home/aa274/autonomy_ws/src/cs237a-labs/install/autonomy_repo/lib/autonomy_repo/explorer.py
+[0.447s] -- Up-to-date symlink: /home/aa274/autonomy_ws/src/cs237a-labs/install/autonomy_repo/share/autonomy_repo/launch/explorer.launch.py
+[0.447s] -- Up-to-date symlink: /home/aa274/autonomy_ws/src/cs237a-labs/install/autonomy_repo/share/autonomy_repo/launch/heading_control.launch.py
+[0.447s] -- Up-to-date symlink: /home/aa274/autonomy_ws/src/cs237a-labs/install/autonomy_repo/share/autonomy_repo/launch/navigator.launch.py
+[0.448s] -- Up-to-date symlink: /home/aa274/autonomy_ws/src/cs237a-labs/install/autonomy_repo/share/autonomy_repo/rviz/default.rviz
+[0.448s] -- Up-to-date symlink: /home/aa274/autonomy_ws/src/cs237a-labs/install/autonomy_repo/share/ament_index/resource_index/package_run_dependencies/autonomy_repo
+[0.448s] -- Up-to-date symlink: /home/aa274/autonomy_ws/src/cs237a-labs/install/autonomy_repo/share/ament_index/resource_index/parent_prefix_path/autonomy_repo
+[0.448s] -- Up-to-date symlink: /home/aa274/autonomy_ws/src/cs237a-labs/install/autonomy_repo/share/autonomy_repo/environment/ament_prefix_path.sh
+[0.449s] -- Up-to-date symlink: /home/aa274/autonomy_ws/src/cs237a-labs/install/autonomy_repo/share/autonomy_repo/environment/ament_prefix_path.dsv
+[0.449s] -- Up-to-date symlink: /home/aa274/autonomy_ws/src/cs237a-labs/install/autonomy_repo/share/autonomy_repo/environment/path.sh
+[0.449s] -- Up-to-date symlink: /home/aa274/autonomy_ws/src/cs237a-labs/install/autonomy_repo/share/autonomy_repo/environment/path.dsv
+[0.450s] -- Up-to-date symlink: /home/aa274/autonomy_ws/src/cs237a-labs/install/autonomy_repo/share/autonomy_repo/local_setup.bash
+[0.450s] -- Up-to-date symlink: /home/aa274/autonomy_ws/src/cs237a-labs/install/autonomy_repo/share/autonomy_repo/local_setup.sh
+[0.450s] -- Up-to-date symlink: /home/aa274/autonomy_ws/src/cs237a-labs/install/autonomy_repo/share/autonomy_repo/local_setup.zsh
+[0.450s] -- Up-to-date symlink: /home/aa274/autonomy_ws/src/cs237a-labs/install/autonomy_repo/share/autonomy_repo/local_setup.dsv
+[0.450s] -- Symlinking: /home/aa274/autonomy_ws/src/cs237a-labs/install/autonomy_repo/share/autonomy_repo/package.dsv
+[0.461s] -- Up-to-date symlink: /home/aa274/autonomy_ws/src/cs237a-labs/install/autonomy_repo/share/ament_index/resource_index/packages/autonomy_repo
+[0.461s] -- Up-to-date symlink: /home/aa274/autonomy_ws/src/cs237a-labs/install/autonomy_repo/share/autonomy_repo/cmake/autonomy_repoConfig.cmake
+[0.461s] -- Up-to-date symlink: /home/aa274/autonomy_ws/src/cs237a-labs/install/autonomy_repo/share/autonomy_repo/cmake/autonomy_repoConfig-version.cmake
+[0.461s] -- Up-to-date symlink: /home/aa274/autonomy_ws/src/cs237a-labs/install/autonomy_repo/share/autonomy_repo/package.xml
+[0.464s] Invoked command in '/home/aa274/autonomy_ws/src/cs237a-labs/build/autonomy_repo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/aa274/autonomy_ws/src/cs237a-labs/build/autonomy_repo

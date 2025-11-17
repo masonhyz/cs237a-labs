@@ -1,0 +1,1 @@
+/home/aa274/autonomy_ws/src/cs237a-labs/build/s2_basic/ament_cmake_core/s2_basicConfig.cmake

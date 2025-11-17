@@ -18,10 +18,16 @@ class Explorer(Node):
         super().__init__("explorer")
         self.occupancy_grid = None
         self.state = None
+        self.image_detected = False
         self.nav_success_sub = self.create_subscription(Bool, "/nav_success", self.explore, 10)
         self.map_sub = self.create_subscription(OccupancyGrid, "/map", self.update_occupancy, 10)
         self.state_sub = self.create_subscription(TurtleBotState, "/state", self.state_callback, 10)
         self.cmd_nav_pub = self.create_publisher(TurtleBotState, "/cmd_nav", 10)
+        self.detect_image_sub = self.create_subscription(Bool, "/detector_bool", self.detect_callback, 10)
+
+    def detect_callback(self, msg: Bool):
+        if msg.data:
+            self.image_detected = True
 
     def update_occupancy(self, msg: OccupancyGrid):
         self.occupancy_grid = StochOccupancyGrid2D(
@@ -35,6 +41,8 @@ class Explorer(Node):
     
     def state_callback(self, msg: TurtleBotState):
         self.state = msg
+        if self.image_detected:
+            self.cmd_nav_pub.publish(self.state)
         # self.get_logger().info("Updated state")
         
     def explore(self, msg: Bool):

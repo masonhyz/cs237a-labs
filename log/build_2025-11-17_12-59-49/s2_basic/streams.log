@@ -1,0 +1,22 @@
+[0.037s] Invoking command in '/home/aa274/autonomy_ws/src/cs237a-labs/build/s2_basic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aa274/autonomy_ws/src/cs237a-labs/build/s2_basic -- -j8 -l8
+[0.085s] Invoked command in '/home/aa274/autonomy_ws/src/cs237a-labs/build/s2_basic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aa274/autonomy_ws/src/cs237a-labs/build/s2_basic -- -j8 -l8
+[0.123s] Invoking command in '/home/aa274/autonomy_ws/src/cs237a-labs/build/s2_basic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/aa274/autonomy_ws/src/cs237a-labs/build/s2_basic
+[0.133s] -- Install configuration: "RelWithDebInfo"
+[0.134s] -- Execute custom install script
+[0.134s] -- Up-to-date symlink: /home/aa274/autonomy_ws/src/cs237a-labs/install/s2_basic/share/ament_index/resource_index/package_run_dependencies/s2_basic
+[0.135s] -- Up-to-date symlink: /home/aa274/autonomy_ws/src/cs237a-labs/install/s2_basic/share/ament_index/resource_index/parent_prefix_path/s2_basic
+[0.135s] -- Up-to-date symlink: /home/aa274/autonomy_ws/src/cs237a-labs/install/s2_basic/share/s2_basic/environment/ament_prefix_path.sh
+[0.135s] -- Up-to-date symlink: /home/aa274/autonomy_ws/src/cs237a-labs/install/s2_basic/share/s2_basic/environment/ament_prefix_path.dsv
+[0.136s] -- Up-to-date symlink: /home/aa274/autonomy_ws/src/cs237a-labs/install/s2_basic/share/s2_basic/environment/path.sh
+[0.136s] -- Up-to-date symlink: /home/aa274/autonomy_ws/src/cs237a-labs/install/s2_basic/share/s2_basic/environment/path.dsv
+[0.136s] -- Up-to-date symlink: /home/aa274/autonomy_ws/src/cs237a-labs/install/s2_basic/share/s2_basic/local_setup.bash
+[0.137s] -- Up-to-date symlink: /home/aa274/autonomy_ws/src/cs237a-labs/install/s2_basic/share/s2_basic/local_setup.sh
+[0.137s] -- Up-to-date symlink: /home/aa274/autonomy_ws/src/cs237a-labs/install/s2_basic/share/s2_basic/local_setup.zsh
+[0.138s] -- Up-to-date symlink: /home/aa274/autonomy_ws/src/cs237a-labs/install/s2_basic/share/s2_basic/local_setup.dsv
+[0.138s] -- Symlinking: /home/aa274/autonomy_ws/src/cs237a-labs/install/s2_basic/share/s2_basic/package.dsv
+[0.152s] -- Up-to-date symlink: /home/aa274/autonomy_ws/src/cs237a-labs/install/s2_basic/share/ament_index/resource_index/packages/s2_basic
+[0.152s] -- Up-to-date symlink: /home/aa274/autonomy_ws/src/cs237a-labs/install/s2_basic/share/s2_basic/cmake/s2_basicConfig.cmake
+[0.152s] -- Up-to-date symlink: /home/aa274/autonomy_ws/src/cs237a-labs/install/s2_basic/share/s2_basic/cmake/s2_basicConfig-version.cmake
+[0.152s] -- Up-to-date symlink: /home/aa274/autonomy_ws/src/cs237a-labs/install/s2_basic/share/s2_basic/package.xml
+[0.153s] -- Up-to-date symlink: /home/aa274/autonomy_ws/src/cs237a-labs/install/s2_basic/lib/s2_basic/constant_control.py
+[0.169s] Invoked command in '/home/aa274/autonomy_ws/src/cs237a-labs/build/s2_basic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/aa274/autonomy_ws/src/cs237a-labs/build/s2_basic
